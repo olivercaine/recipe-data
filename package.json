@@ -1,5 +1,5 @@
 {
-  "name": "@olliecaine/recipe-data",
+  "name": "@olivercaine/recipe-data",
   "version": "0.0.0",
   "description": "A repo containing example recipes and TypeScript models",
   "main": "typescript-library-boilerplate.bundle.js",
