@@ -1,4 +1,9 @@
-export * from './add'
-export * from './minus'
-export * from './multiply'
-export * from './divide'
+import { Recipe } from 'types'
+import { recipeEggsBenedict } from './recipes'
+
+export * from './recipes'
+
+
+export const recipes: Recipe[] = [
+  recipeEggsBenedict
+]
