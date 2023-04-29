@@ -46,9 +46,10 @@ jobs:
         node-version: 14.x
         cache: 'npm'        
     - name: Pre-release
-      run: npm version prerelease --preid=$GITHUB_RUN_ID --no-git-tag-version
-    - name: List files
-      run: ls
+      run: |
+        npm version prerelease --preid=$GITHUB_RUN_ID --no-git-tag-version
+        npm pack
+        ls
     - name: Upload
       uses: actions/upload-artifact@v3
       with:
