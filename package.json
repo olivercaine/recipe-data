@@ -1,7 +1,7 @@
 {
-  "name": "@olliecaine/typescript-library-boilerplate",
+  "name": "@olivercaine/recipe-data",
   "version": "0.0.0",
-  "description": "A simple tree-shakable TypeScript library boilerplate",
+  "description": "A repo containing example recipes and TypeScript models",
   "main": "typescript-library-boilerplate.bundle.js",
   "jsnext:main": "index.js",
   "module": "index.js",
