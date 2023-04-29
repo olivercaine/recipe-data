@@ -40,6 +40,7 @@ jobs:
       - run: npm run build
       - run: npm version prerelease --preid=$GITHUB_RUN_ID --no-git-tag-version
       # - run: npm version --newversion=1.0.$GITHUB_RUN_ID --no-git-tag-version
+      - run: cd dist
       - run: npm pack
       - name: Upload
         uses: actions/upload-artifact@v2
