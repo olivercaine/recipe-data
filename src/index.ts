@@ -1,6 +1,11 @@
 import { recipeEggsBenedict } from './recipes/index'
-import { IRecipe } from './types'
+import * as types from './types'
 
-export const recipes: IRecipe[] = [
+const recipes: types.IRecipe[] = [
   recipeEggsBenedict
 ]
+
+export {
+  recipes,
+  types
+}
