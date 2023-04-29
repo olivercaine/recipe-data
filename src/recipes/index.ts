@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
-import { Recipe } from '../types'
+import { IRecipe } from '../types'
 
-export const recipeEggsBenedict: Recipe = {
+export const recipeEggsBenedict: IRecipe = {
   url: '/classic-eggs-benedict',
   title: 'Classic Eggs Benedict',
   categories: [

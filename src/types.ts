@@ -1,51 +1,47 @@
 /* eslint-disable max-len, camelcase */
 
-export interface PrepTimes {
+export interface IPrepTimes {
   for_2: number
 }
 
-export interface BasicsEntityOrAllergensEntityOrCuisine {
+export interface IBasicsEntityOrAllergensEntityOrCuisine {
   slug: string
   title: string
 }
 
-export interface AllergenEntity {
+export interface IAllergenEntity {
   slug: string
 }
 
-export interface Allergens {
-  allergen?: (AllergenEntity | null)[] | null
+export interface IAllergens {
+  allergen?: (IAllergenEntity | null)[] | null
 }
 
-export interface ImagesEntity {
+export interface IImagesEntity {
   image: string
   width: number
 }
 
-export interface Media1 {
-  images?: (ImagesEntity | null)[] | null
+export interface IMedia {
+  images?: (IImagesEntity | null)[] | null
 }
 
-export interface CookingInstructionsEntity {
+export interface ICookingInstructionsEntity {
   instruction: string
   order: number
-  media: Media1
+  media: IMedia
 }
 
-export interface Media {
-  images: (ImagesEntity)[] | null
-}
-
-export interface IngredientsEntity {
+export interface IIngredientsEntity {
   label: string
   title: string
   uid: string
   name: string
-  media: Media
-  allergens: Allergens
+  media: IMedia
+  allergens: IAllergens
 }
 
-export interface Seo {
+export interface ISeo {
   title: string
   description: string
   robots?: (null)[] | null
@@ -53,7 +49,7 @@ export interface Seo {
   open_graph_image: string
 }
 
-export interface PerHundredGramsOrPerPortion {
+export interface IPerHundredGramsOrPerPortion {
   energy_kcal: number
   energy_kj: number
   fat_mg: number
@@ -66,40 +62,40 @@ export interface PerHundredGramsOrPerPortion {
   net_weight_mg: number
 }
 
-export interface NutritionalInformation {
-  per_hundred_grams: PerHundredGramsOrPerPortion
-  per_portion: PerHundredGramsOrPerPortion
+export interface INutritionalInformation {
+  per_hundred_grams: IPerHundredGramsOrPerPortion
+  per_portion: IPerHundredGramsOrPerPortion
 }
 
-export interface Rating {
+export interface IRating {
   average: number
   count: number
 }
 
-export interface CategoriesEntity {
+export interface ICategoriesEntity {
   title: string
   url: string
   uid: string
 }
 
-export interface Recipe {
+export interface IRecipe {
   uid: string
   mealie_id: string
   mealie_uid: string
   url: string
   title: string
-  categories?: (CategoriesEntity)[] | null
-  media: Media
-  rating: Rating
+  categories?: (ICategoriesEntity)[] | null
+  media: IMedia
+  rating: IRating
   description: string
-  prep_times: PrepTimes
-  cuisine: BasicsEntityOrAllergensEntityOrCuisine
-  ingredients?: (IngredientsEntity)[] | null
-  basics?: (BasicsEntityOrAllergensEntityOrCuisine)[] | null
-  cooking_instructions?: (CookingInstructionsEntity)[] | null
-  allergens?: (BasicsEntityOrAllergensEntityOrCuisine)[] | null
-  seo: Seo
+  prep_times: IPrepTimes
+  cuisine: IBasicsEntityOrAllergensEntityOrCuisine
+  ingredients?: (IIngredientsEntity)[] | null
+  basics?: (IBasicsEntityOrAllergensEntityOrCuisine)[] | null
+  cooking_instructions?: (ICookingInstructionsEntity)[] | null
+  allergens?: (IBasicsEntityOrAllergensEntityOrCuisine)[] | null
+  seo: ISeo
   tags?: (null)[] | null
   _version: number
-  nutritional_information: NutritionalInformation
+  nutritional_information: INutritionalInformation
 }
