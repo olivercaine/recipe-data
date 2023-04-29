@@ -47,12 +47,10 @@ jobs:
       with:
         name: dist        
     - name: Pre-release
-      working-directory: ./dist
       run: npm version prerelease --preid=$GITHUB_RUN_ID --no-git-tag-version
     - name: Upload
       uses: actions/upload-artifact@v3
       with:
-        working-directory: ./dist
         name: package
         path: "./*.tgz"
 
