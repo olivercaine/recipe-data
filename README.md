@@ -1,9 +1,9 @@
 [![Node.js CI](https://github.com/olivercaine/typescript-library-boilerplate/actions/workflows/node.js.yml/badge.svg)](https://github.com/olivercaine/typescript-library-boilerplate/actions/workflows/node.js.yml)
 [![Coverage Status](https://coveralls.io/repos/github/goldenbearkin/typescript-library-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/goldenbearkin/typescript-library-boilerplate?branch=master)
 
-# TypeScript Library Boilerplate
+# Recipe Data
 
-A simple tree-shakable TypeScript library boilerplate
+A simple NPM package containing recipe models and data
 
 # Stacks
 - **unit test**: mocha, chai
