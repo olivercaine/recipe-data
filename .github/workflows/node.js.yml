@@ -36,11 +36,6 @@ jobs:
     name: Prepare package
     runs-on: ubuntu-latest
     steps:
-    - name: Setup node
-      uses: actions/setup-node@v3
-      with:
-        node-version: 14.x
-        cache: 'npm'      
     - name: Download dist
       uses: actions/download-artifact@v2
       with:
