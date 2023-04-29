@@ -38,10 +38,13 @@ jobs:
           node-version: ${{ matrix.node }}
       - run: npm ci
       - run: npm run build
+      - run: cd dist
+      - run: pwd
       - run: npm version prerelease --preid=$GITHUB_RUN_ID --no-git-tag-version
       # - run: npm version --newversion=1.0.$GITHUB_RUN_ID --no-git-tag-version
-      - run: cd dist
       - run: npm pack
+      - run: pwd
+      - run: ls
       - name: Upload
         uses: actions/upload-artifact@v2
         with:
