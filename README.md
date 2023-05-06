@@ -22,6 +22,11 @@ yarn build          // build for both esm (ES5 + ES2015 module) and ES5 UMD bund
 yarn lint           // run lint against lib and test
 ````
 
+## Credits
+
+1. [OpenAI](https://labs.openai.com) for generating to recipe details and images 
+2. https://chat.openai.com for generating the recipe images (https://labs.openai.com/sc/dE4xFAJiJysVYdHW4ds4Fgmb)
+
 # Testing
 
 This boilerplate use Mocha as test framework.
