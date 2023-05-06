@@ -302,7 +302,7 @@ export const recipeEggsBenedict: IRecipe = {
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/dalle-2023-04-15-122313-close-up-of-eggs-benedict-on-a-blue-plate-in-a-sunny-kitchen.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/classic-eggs-benedict/dalle-2023-04-15-122313-close-up-of-eggs-benedict-on-a-blue-plate-in-a-sunny-kitchen.png',
             width: 1500
           }
         ]
