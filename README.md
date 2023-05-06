@@ -12,7 +12,7 @@ A simple NPM package containing recipe models and data
 
 # How to use?
 
-Just clone it and use it.
+
 
 # Commands list
 ````
