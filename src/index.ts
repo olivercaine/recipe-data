@@ -1,4 +1,4 @@
-import { recipeEggsBenedict } from './recipes/index'
+import { recipeEggsBenedict } from './recipes/classic-eggs-benedict'
 import * as types from './types'
 
 const recipes: types.IRecipe[] = [
