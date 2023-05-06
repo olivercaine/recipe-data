@@ -12,6 +12,8 @@ A simple NPM package containing recipe models and data
 
 # How to use?
 
+You can see a demo of this being used in this [recipe UI library](http://localhost:6006/?path=/story/demos-recipedetailpage--default).
+
 1. Register the GitHub Package Registry in your .npmrc file ([additional docs](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry)):
 
 ```
@@ -42,7 +44,7 @@ yarn build          // build for both esm (ES5 + ES2015 module) and ES5 UMD bund
 yarn lint           // run lint against lib and test
 ````
 
-## Credits
+### Credits
 
 1. [OpenAI](https://labs.openai.com) for generating to recipe details and images 
 2. https://chat.openai.com for generating the recipe images (https://labs.openai.com/sc/dE4xFAJiJysVYdHW4ds4Fgmb)
@@ -50,9 +52,6 @@ yarn lint           // run lint against lib and test
 # Testing
 
 This boilerplate use Mocha as test framework.
-
-# Reference
-[http://blog.mgechev.com/2017/01/21/distributing-an-angular-library-aot-ngc-types](http://blog.mgechev.com/2017/01/21/distributing-an-angular-library-aot-ngc-types/)
 
 # License
 
