@@ -17,7 +17,7 @@ export const recipeEggsBenedict: IRecipe = {
   media: {
     images: [
       {
-        image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/dalle-2023-04-15-122313-close-up-of-eggs-benedict-on-a-blue-plate-in-a-sunny-kitchen.png',
+        image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/classic-eggs-benedict/dalle-2023-04-15-122313-close-up-of-eggs-benedict-on-a-blue-plate-in-a-sunny-kitchen.png',
         width: 1024
       }
     ]
@@ -43,7 +43,7 @@ export const recipeEggsBenedict: IRecipe = {
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/images/ingredients/dalle-2023-04-15-150151-bottle-of-olive-oil-with-a-white-background.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/ingredients/dalle-2023-04-15-150151-bottle-of-olive-oil-with-a-white-background.png',
             width: 1500
           }
         ]
@@ -60,7 +60,7 @@ export const recipeEggsBenedict: IRecipe = {
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/images/ingredients/dalle-2023-04-15-150041-bottle-of-white-wine-vinegar-with-a-white-background.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/ingredients/dalle-2023-04-15-150041-bottle-of-white-wine-vinegar-with-a-white-background.png',
             width: 1500
           }
         ]
@@ -77,7 +77,7 @@ export const recipeEggsBenedict: IRecipe = {
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/images/ingredients/dalle-2023-04-15-150307-parma-ham-slices-on-a-plate-with-a-white-background.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/ingredients/dalle-2023-04-15-150307-parma-ham-slices-on-a-plate-with-a-white-background.png',
             width: 1500
           }
         ]
@@ -98,7 +98,7 @@ export const recipeEggsBenedict: IRecipe = {
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/images/ingredients/dalle-2023-04-15-150443-egg-with-a-white-background.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/ingredients/dalle-2023-04-15-150443-egg-with-a-white-background.png',
             width: 1500
           }
         ]
@@ -119,7 +119,7 @@ export const recipeEggsBenedict: IRecipe = {
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/images/ingredients/dalle-2023-04-15-150542-a-single-english-muffin.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/ingredients/dalle-2023-04-15-150542-a-single-english-muffin.png',
             width: 1500
           }
         ]
@@ -158,7 +158,7 @@ export const recipeEggsBenedict: IRecipe = {
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/images/steps/dalle-2023-04-15-133932-toasting-english-muffins.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/classic-eggs-benedict/dalle-2023-04-15-133932-toasting-english-muffins.png',
             width: 1500
           }
         ]
@@ -170,7 +170,7 @@ export const recipeEggsBenedict: IRecipe = {
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/images/steps/dalle-2023-04-15-134106-skillet-cooking-bacon.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/classic-eggs-benedict/dalle-2023-04-15-134106-skillet-cooking-bacon.png',
             width: 1500
           }
         ]
@@ -182,7 +182,7 @@ export const recipeEggsBenedict: IRecipe = {
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/images/steps/dalle-2023-04-15-134214-water-simmering-in-a-saucepan.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/classic-eggs-benedict/dalle-2023-04-15-134214-water-simmering-in-a-saucepan.png',
             width: 1500
           }
         ]
@@ -194,7 +194,7 @@ export const recipeEggsBenedict: IRecipe = {
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/images/steps/dalle-2023-04-15-134306-cracked-egg-in-a-ramekin.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/classic-eggs-benedict/dalle-2023-04-15-134306-cracked-egg-in-a-ramekin.png',
             width: 1500
           }
         ]
@@ -206,7 +206,7 @@ export const recipeEggsBenedict: IRecipe = {
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/images/steps/dalle-2023-04-15-134631-egg-yoke-in-a-ramekin-being-poured-into-a-saucepan-full-of-boiling-water.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/classic-eggs-benedict/dalle-2023-04-15-134631-egg-yoke-in-a-ramekin-being-poured-into-a-saucepan-full-of-boiling-water.png',
             width: 1500
           }
         ]
@@ -218,7 +218,7 @@ export const recipeEggsBenedict: IRecipe = {
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/images/steps/dalle-2023-04-15-134851-poached-egg-on-paper-towl.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/classic-eggs-benedict/dalle-2023-04-15-134851-poached-egg-on-paper-towl.png',
             width: 1500
           }
         ]
@@ -230,7 +230,7 @@ export const recipeEggsBenedict: IRecipe = {
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/images/steps/dalle-2023-04-15-134943-butter-melting-in-a-saucepan.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/classic-eggs-benedict/dalle-2023-04-15-134943-butter-melting-in-a-saucepan.png',
             width: 1500
           }
         ]
@@ -242,7 +242,7 @@ export const recipeEggsBenedict: IRecipe = {
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/images/steps/dalle-2023-04-15-152604-a-human-hand-squeezing-a-lemon-into-a-pan-which-contains-melted-butter.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/classic-eggs-benedict/dalle-2023-04-15-152604-a-human-hand-squeezing-a-lemon-into-a-pan-which-contains-melted-butter.png',
             width: 1500
           }
         ]
@@ -254,7 +254,7 @@ export const recipeEggsBenedict: IRecipe = {
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/images/steps/dalle-2023-04-15-152820-a-bowl-containing-frothy-egg-white-with-a-whiskpng.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/classic-eggs-benedict/dalle-2023-04-15-152820-a-bowl-containing-frothy-egg-white-with-a-whiskpng.png',
             width: 1500
           }
         ]
@@ -266,7 +266,7 @@ export const recipeEggsBenedict: IRecipe = {
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/images/steps/dalle-2023-04-15-155058-a-bowl-of-whisked-egg-and-melted-butter.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/classic-eggs-benedict/dalle-2023-04-15-155058-a-bowl-of-whisked-egg-and-melted-butter.png',
             width: 1500
           }
         ]
@@ -278,7 +278,7 @@ export const recipeEggsBenedict: IRecipe = {
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/images/steps/dalle-2023-04-15-152954-two-english-muffin-halves-on-a-plate-with-bacon-on-top-and-poached-egg-on-top-of-that.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/classic-eggs-benedict/dalle-2023-04-15-152954-two-english-muffin-halves-on-a-plate-with-bacon-on-top-and-poached-egg-on-top-of-that.png',
             width: 1500
           }
         ]
@@ -290,7 +290,7 @@ export const recipeEggsBenedict: IRecipe = {
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/images/steps/dalle-2023-04-15-153146-using-a-spoon-to-pour-hollandaise-sauce-over-poached-eggs-on-two-muffins-with-bacon-on-top.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/classic-eggs-benedict/dalle-2023-04-15-153146-using-a-spoon-to-pour-hollandaise-sauce-over-poached-eggs-on-two-muffins-with-bacon-on-top.png',
             width: 1500
           }
         ]
