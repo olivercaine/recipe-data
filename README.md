@@ -12,7 +12,27 @@ A simple NPM package containing recipe models and data
 
 # How to use?
 
+1. Register the GitHub Package Registry in your .npmrc file ([additional docs](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry)):
 
+```
+# .npmrc
+@olivercaine:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=<YOUR_GITHUB_TOKEN>
+```
+
+2. Install the package
+
+```
+npm install --save-dev @olivercaine/recipe-data@latest
+```
+
+Note: you can see the latest version in the [packages page](https://github.com/users/olivercaine/packages/npm/package/recipe-data)
+
+3. Import the package into your app:
+
+```typescript
+import { recipes } from '@olivercaine/recipe-data'
+```
 
 # Commands list
 ````
@@ -33,10 +53,6 @@ This boilerplate use Mocha as test framework.
 
 # Reference
 [http://blog.mgechev.com/2017/01/21/distributing-an-angular-library-aot-ngc-types](http://blog.mgechev.com/2017/01/21/distributing-an-angular-library-aot-ngc-types/)
-
-# Please help
-
-Welcome for PR
 
 # License
 
