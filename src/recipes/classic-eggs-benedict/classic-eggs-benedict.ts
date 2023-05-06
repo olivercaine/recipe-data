@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-import { IRecipe } from '../types'
+import { IRecipe } from '../../types'
 
 export const recipeEggsBenedict: IRecipe = {
   url: '/classic-eggs-benedict',
