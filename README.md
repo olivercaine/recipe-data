@@ -12,7 +12,7 @@ A simple NPM package containing recipe models and data
 
 # How to use?
 
-You can see a [demo](https://olivercaine.github.io/ui-component-library) of this being used in this [recipe UI package](https://github.com/olivercaine/ui-component-library).
+You can see a [demo](https://olivercaine.github.io/ui-component-library-recipes) of this being used in this [recipe UI package](https://github.com/olivercaine/ui-component-library-recipes).
 
 1. Register the GitHub Package Registry in your .npmrc file ([additional docs](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry)):
 
