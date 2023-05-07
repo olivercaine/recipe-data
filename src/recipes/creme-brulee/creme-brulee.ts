@@ -250,7 +250,7 @@ export const recipeCremeBrulee: IRecipe = {
         images: [
           {
             image:
-              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/',
+              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-23.30.01-4-creme-brulee-in-a-cooking-bowl-covered-in-cling-film.png',
             width: 1500,
           },
         ],
@@ -264,7 +264,7 @@ export const recipeCremeBrulee: IRecipe = {
         images: [
           {
             image:
-              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/',
+              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL·E-2023-05-07-23.31.13-4-creme-brulees-on-the-kitchen-table.png',
             width: 1500,
           },
         ],
@@ -278,7 +278,7 @@ export const recipeCremeBrulee: IRecipe = {
         images: [
           {
             image:
-              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/',
+              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-23.32.17-a-hand-sprinking-sugar-on-4-creme-brulees-with-a-teaspoon.png',
             width: 1500,
           },
         ],
@@ -292,7 +292,7 @@ export const recipeCremeBrulee: IRecipe = {
         images: [
           {
             image:
-              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/',
+              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-23.33.38-kitchen-torch-heating-creme-brulees.png',
             width: 1500,
           },
         ],
