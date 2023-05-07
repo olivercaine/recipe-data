@@ -43,7 +43,7 @@ export const recipeCremeBrulee: IRecipe = {
       media: {
         images: [
           {
-            image: 'TODO.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/ingredients/DALL-E-2023-05-07-22.52.21-heavy-cream-with-a-white-background.png',
             width: 1500
           }
         ]
@@ -60,7 +60,7 @@ export const recipeCremeBrulee: IRecipe = {
       media: {
         images: [
           {
-            image: 'TODO.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/ingredients/DALL-E-2023-05-07-22.52.18-vanilla-bean-with-a-white-background.png',
             width: 1500
           }
         ]
@@ -77,7 +77,7 @@ export const recipeCremeBrulee: IRecipe = {
       media: {
         images: [
           {
-            image: 'TODO.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/ingredients/DALL-E-2023-05-07-22.52.23-6-egg-with-a-white-background.png',
             width: 1500
           }
         ]
@@ -94,7 +94,7 @@ export const recipeCremeBrulee: IRecipe = {
       media: {
         images: [
           {
-            image: 'TODO.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/ingredients/DALL-E-2023-05-07-22.52.24-a-pile-of-sugar-with-a-white-background.png',
             width: 1500
           }
         ]
@@ -111,7 +111,7 @@ export const recipeCremeBrulee: IRecipe = {
       media: {
         images: [
           {
-            image: 'TODO.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/ingredients/DALL-E-2023-05-07-22.52.26-a-pile-of-salt-with-a-white%20background.png',
             width: 1500
           }
         ]
@@ -167,7 +167,7 @@ export const recipeCremeBrulee: IRecipe = {
         images: [
           {
             image:
-              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-22.34.14-a photo-of-a-bowl-with-egg-yolk-and-sugar-being-whisked.png",
+              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-22.34.14-a%20photo-of-a-bowl-with-egg-yolk-and-sugar-being-whisked.png",
             width: 1500,
           },
         ],
