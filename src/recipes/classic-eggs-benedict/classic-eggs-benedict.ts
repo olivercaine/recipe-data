@@ -11,7 +11,7 @@ export const recipeEggsBenedict: IRecipe = {
       uid: '12345'
     }
   ],
-  uid: '43473cb2-db34-11ed-afa1-000000000002',
+  uid: '43473cb2-db34-11ed-afa1-000000000001',
   mealie_id: '1',
   mealie_uid: 'a410236e-db35-11ed-afa1-000000000001',
   media: {
