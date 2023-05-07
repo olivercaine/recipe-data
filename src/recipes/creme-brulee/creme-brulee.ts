@@ -26,7 +26,7 @@ export const recipeCremeBrulee: IRecipe = {
     average: 4.5,
     count: 871
   },
-  description: '',
+  description: 'Crème Brûlée is a classic French dessert that consists of a rich custard base topped with a layer of caramelized sugar.',
   prep_times: {
     for_2: 60,
   },
@@ -325,7 +325,7 @@ export const recipeCremeBrulee: IRecipe = {
   ],
   seo: {
     title: 'Creme Brulee',
-    description: 'Creme brulee is a classic French dessert that consists of a rich custard base topped with a layer of caramelized sugar. ',
+    description: 'Crème Brûlée is a classic French dessert that consists of a rich custard base topped with a layer of caramelized sugar.',
     robots: [],
     canonical: '',
     open_graph_image: 'TODO'
