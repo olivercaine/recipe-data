@@ -17,7 +17,7 @@ export const recipeCremeBrulee: IRecipe = {
   media: {
     images: [
       {
-        image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-22.26.22-creme-brulee.png',
+        image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL%C2%B7E-2023-05-07-22.26.22-creme-brulee.png',
         width: 1024
       }
     ]
@@ -135,7 +135,7 @@ export const recipeCremeBrulee: IRecipe = {
     { instruction: 'Preheat your oven to 300°F.', order: 1, media: { images: [{ image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/', width: 1500 }] } },
     { instruction: 'In a saucepan, heat the heavy cream over medium heat until it just starts to simmer.', order: 1, media: { images: [{ image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-22.31.01-a-saucepan-containing-heavy-cream.png', width: 1500 }] } },
     { instruction: 'In a separate bowl, whisk together the granulated sugar, vanilla extract, and egg yolks until the mixture is pale and thick.', order: 1, media: { images: [{ image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-22.34.14-a photo-of-a-bowl-with-egg-yolk-and-sugar-being-whisked.png', width: 1500 }] } },
-    { instruction: 'Slowly pour the hot cream into the egg mixture while whisking constantly.', order: 1, media: { images: [{ image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL·E-2023-05-07-22.35.39-a-close-up-of-woman-setting-the-dial-on-an-oven.png', width: 1500 }] } },
+    { instruction: 'Slowly pour the hot cream into the egg mixture while whisking constantly.', order: 1, media: { images: [{ image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-22.35.39-a-close-up-of-woman-setting-the-dial-on-an-oven.png', width: 1500 }] } },
     { instruction: 'Pour the mixture through a fine-mesh sieve to remove any lumps.', order: 1, media: { images: [{ image: 'png', width: 1500 }] } },
     { instruction: 'Divide the mixture evenly among 4-6 ramekins.', order: 1, media: { images: [{ image: 'png', width: 1500 }] } },
     { instruction: 'Place the ramekins in a baking dish and fill the dish with hot water until it comes about halfway up the sides of the ramekins.', order: 1, media: { images: [{ image: 'png', width: 1500 }] } },
