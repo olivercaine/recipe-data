@@ -222,7 +222,7 @@ export const recipeCremeBrulee: IRecipe = {
         images: [
           {
             image:
-              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/",
+              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL·E-2023-05-07-23.21.15-a-baking-dish-containing-water-and-4-ramekins.png",
             width: 1500,
           },
         ],
@@ -236,7 +236,7 @@ export const recipeCremeBrulee: IRecipe = {
         images: [
           {
             image:
-              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/",
+              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-23.22.54-a-modern-oven-with-4-ramekins-inside.png",
             width: 1500,
           },
         ],
