@@ -133,13 +133,13 @@ export const recipeCremeBrulee: IRecipe = {
   ],
   cooking_instructions: [
     {
-      instruction: "Preheat your oven to 300°F.",
+      instruction: 'Preheat your oven to 300°F.',
       order: 1,
       media: {
         images: [
           {
             image:
-              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-22.35.39-a-close-up-of-woman-setting-the-dial-on-an-oven.png",
+              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-22.35.39-a-close-up-of-woman-setting-the-dial-on-an-oven.png',
             width: 1500,
           },
         ],
@@ -147,13 +147,13 @@ export const recipeCremeBrulee: IRecipe = {
     },
     {
       instruction:
-        "In a saucepan, heat the heavy cream over medium heat until it just starts to simmer.",
+        'In a saucepan, heat the heavy cream over medium heat until it just starts to simmer.',
       order: 1,
       media: {
         images: [
           {
             image:
-              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-22.31.01-a-saucepan-containing-heavy-cream.png",
+              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-22.31.01-a-saucepan-containing-heavy-cream.png',
             width: 1500,
           },
         ],
@@ -161,13 +161,13 @@ export const recipeCremeBrulee: IRecipe = {
     },
     {
       instruction:
-        "In a separate bowl, whisk together the granulated sugar, vanilla extract, and egg yolks until the mixture is pale and thick.",
+        'In a separate bowl, whisk together the granulated sugar, vanilla extract, and egg yolks until the mixture is pale and thick.',
       order: 1,
       media: {
         images: [
           {
             image:
-              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-22.34.14-a%20photo-of-a-bowl-with-egg-yolk-and-sugar-being-whisked.png",
+              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-22.34.14-a%20photo-of-a-bowl-with-egg-yolk-and-sugar-being-whisked.png',
             width: 1500,
           },
         ],
@@ -175,13 +175,13 @@ export const recipeCremeBrulee: IRecipe = {
     },
     {
       instruction:
-        "Slowly pour the hot cream into the egg mixture while whisking constantly.",
+        'Slowly pour the hot cream into the egg mixture while whisking constantly.',
       order: 1,
       media: {
         images: [
           {
             image:
-              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-22.56.14-whisking-eggs-in-a-bowl-with-thick-creme-being-poured-in.png",
+              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-22.56.14-whisking-eggs-in-a-bowl-with-thick-creme-being-poured-in.png',
             width: 1500,
           },
         ],
@@ -189,40 +189,26 @@ export const recipeCremeBrulee: IRecipe = {
     },
     {
       instruction:
-        "Pour the mixture through a fine-mesh sieve to remove any lumps.",
+        'Pour the mixture through a fine-mesh sieve to remove any lumps.',
       order: 1,
       media: {
         images: [
           {
             image:
-              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-23.04.36-a-sieve-with-a-yellow-liquid-food-mixture-being-poured-into-it.png",
+              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-23.04.36-a-sieve-with-a-yellow-liquid-food-mixture-being-poured-into-it.png',
             width: 1500,
           },
         ],
       },
     },
     {
-      instruction: "Divide the mixture evenly among 4-6 ramekins.",
+      instruction: 'Divide the mixture evenly among 4-6 ramekins.',
       order: 1,
       media: {
         images: [
           {
             image:
-              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-23.06.48-4-ramekins-full-of-light-yellow-mixture.png",
-            width: 1500,
-          },
-        ],
-      },
-    },
-    {
-      instruction:
-        "Place the ramekins in a baking dish and fill the dish with hot water until it comes about halfway up the sides of the ramekins.",
-      order: 1,
-      media: {
-        images: [
-          {
-            image:
-              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL·E-2023-05-07-23.21.15-a-baking-dish-containing-water-and-4-ramekins.png",
+              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-23.06.48-4-ramekins-full-of-light-yellow-mixture.png',
             width: 1500,
           },
         ],
@@ -230,13 +216,13 @@ export const recipeCremeBrulee: IRecipe = {
     },
     {
       instruction:
-        "Bake for 35-40 minutes, or until the custards are set but still slightly jiggly in the center.",
+        'Place the ramekins in a baking dish and fill the dish with hot water until it comes about halfway up the sides of the ramekins.',
       order: 1,
       media: {
         images: [
           {
             image:
-              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-23.22.54-a-modern-oven-with-4-ramekins-inside.png",
+              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL·E-2023-05-07-23.21.15-a-baking-dish-containing-water-and-4-ramekins.png',
             width: 1500,
           },
         ],
@@ -244,13 +230,27 @@ export const recipeCremeBrulee: IRecipe = {
     },
     {
       instruction:
-        "Remove the ramekins from the water bath and let them cool to room temperature. Then cover them with plastic wrap and refrigerate for at least 2 hours, or up to 2 days.",
+        'Bake for 35-40 minutes, or until the custards are set but still slightly jiggly in the center.',
       order: 1,
       media: {
         images: [
           {
             image:
-              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/",
+              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-23.22.54-a-modern-oven-with-4-ramekins-inside.png',
+            width: 1500,
+          },
+        ],
+      },
+    },
+    {
+      instruction:
+        'Remove the ramekins from the water bath and let them cool to room temperature. Then cover them with plastic wrap and refrigerate for at least 2 hours, or up to 2 days.',
+      order: 1,
+      media: {
+        images: [
+          {
+            image:
+              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/',
             width: 1500,
           },
         ],
@@ -264,7 +264,7 @@ export const recipeCremeBrulee: IRecipe = {
         images: [
           {
             image:
-              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/",
+              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/',
             width: 1500,
           },
         ],
@@ -272,13 +272,13 @@ export const recipeCremeBrulee: IRecipe = {
     },
     {
       instruction:
-        "Sprinkle about 1 tablespoon of brown sugar evenly over the top of each custard.",
+        'Sprinkle about 1 tablespoon of brown sugar evenly over the top of each custard.',
       order: 1,
       media: {
         images: [
           {
             image:
-              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/",
+              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/',
             width: 1500,
           },
         ],
@@ -292,7 +292,7 @@ export const recipeCremeBrulee: IRecipe = {
         images: [
           {
             image:
-              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/",
+              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/',
             width: 1500,
           },
         ],
@@ -300,20 +300,19 @@ export const recipeCremeBrulee: IRecipe = {
     },
     {
       instruction:
-        "Let the caramelized sugar cool and harden for a minute or two before serving.",
+        'Let the caramelized sugar cool and harden for a minute or two before serving.',
       order: 1,
       media: {
         images: [
           {
             image:
-              "https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-22.26.22-creme-brulee.png",
+              'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/recipes/creme-brulee/DALL-E-2023-05-07-22.26.22-creme-brulee.png',
             width: 1500,
           },
         ],
       },
     },
-  ];
-  ,
+  ],
   allergens: [
     {
       title: 'egg',
