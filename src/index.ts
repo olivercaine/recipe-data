@@ -9,5 +9,7 @@ const recipes: types.IRecipe[] = [
 ]
 
 export {
-  recipes, tallyIngredientsForRecipePortions as tallyIngredients, types
+  recipes,
+  tallyIngredientsForRecipePortions,
+  types
 }
