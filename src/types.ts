@@ -33,7 +33,7 @@ export interface ICookingInstructionsEntity {
 }
 
 export interface IIngredientsEntity {
-  label: string
+  label: string // label is what is displayed in the UI
   title: string
   uid: string
   name: string
