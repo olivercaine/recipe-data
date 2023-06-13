@@ -11,4 +11,3 @@ const recipes: types.IRecipe[] = [
 export {
   recipes, tallyIngredientsForRecipePortions as tallyIngredients, types
 }
-
