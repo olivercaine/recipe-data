@@ -38,7 +38,7 @@ export const recipeEggsBenedict: IRecipe = {
     {
       label: '4 Tablespoon Olive oil for frying',
       title: '4 Tablespoon Olive oil for frying',
-      uid: '934bbf3c-db3c-11ed-afa1-0242ac120001',
+      uid: '934bbf3c-db3c-11ed-afa1-100000000006',
       name: '4 Tablespoon Olive oil for frying',
       media: {
         images: [
@@ -55,7 +55,7 @@ export const recipeEggsBenedict: IRecipe = {
     {
       label: 'White wine vinegar for poaching',
       title: 'White wine vinegar for poaching',
-      uid: '934bbf3c-db3c-11ed-afa1-0242ac120002',
+      uid: '934bbf3c-db3c-11ed-afa1-100000000007',
       name: 'White wine vinegar for poaching',
       media: {
         images: [
@@ -72,7 +72,7 @@ export const recipeEggsBenedict: IRecipe = {
     {
       label: '8 di Parma ham slices',
       title: '8 di Parma ham slices',
-      uid: '934bbf3c-db3c-11ed-afa1-0242ac120003',
+      uid: '934bbf3c-db3c-11ed-afa1-100000000008',
       name: '8 di Parma ham slices',
       media: {
         images: [
@@ -93,7 +93,7 @@ export const recipeEggsBenedict: IRecipe = {
     {
       label: '4 Whole eggs',
       title: '4 Whole eggs',
-      uid: '934bbf3c-db3c-11ed-afa1-0242ac120004',
+      uid: '934bbf3c-db3c-11ed-afa1-10000000003',
       name: '4 Whole eggs',
       media: {
         images: [
@@ -114,7 +114,7 @@ export const recipeEggsBenedict: IRecipe = {
     {
       label: '2 Split English muffins',
       title: '2 Split English muffins',
-      uid: '934bbf3c-db3c-11ed-afa1-0242ac120005',
+      uid: '934bbf3c-db3c-11ed-afa1-100000000009',
       name: '2 Split English muffins',
       media: {
         images: [
