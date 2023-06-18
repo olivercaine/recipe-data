@@ -72,12 +72,12 @@ export const recipeCremeBrulee: IRecipe = {
     {
       label: '6 egg yolks',
       title: '6 egg yolks',
-      uid: '934bbf3c-db3c-11ed-afa1-100000000002',
+      uid: '934bbf3c-db3c-11ed-afa1-100000000003',
       name: '6 egg yolks',
       media: {
         images: [
           {
-            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/ingredients/DALL-E-2023-05-07-22.52.23-6-egg-with-a-white-background.png',
+            image: 'https://raw.githubusercontent.com/olivercaine/recipe-data/main/src/ingredients/dalle-2023-04-15-150443-egg-with-a-white-background.png',
             width: 1500
           }
         ]
@@ -89,7 +89,7 @@ export const recipeCremeBrulee: IRecipe = {
     {
       label: '3/4 cup granulated sugar, divided',
       title: '3/4 cup granulated sugar, divided',
-      uid: '934bbf3c-db3c-11ed-afa1-100000000002',
+      uid: '934bbf3c-db3c-11ed-afa1-100000000004',
       name: '3/4 cup granulated sugar, divided',
       media: {
         images: [
@@ -106,7 +106,7 @@ export const recipeCremeBrulee: IRecipe = {
     {
       label: '1/4 teaspoon salt',
       title: '1/4 teaspoon salt',
-      uid: '934bbf3c-db3c-11ed-afa1-100000000002',
+      uid: '934bbf3c-db3c-11ed-afa1-100000000005',
       name: '1/4 teaspoon salt',
       media: {
         images: [
