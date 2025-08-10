@@ -18,19 +18,19 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node-version: [ 18, 20, 22 ] # Updated to latest LTS and current Node.js versions
+        node-version: [ 18, 20, 22 ] # Latest LTS and current Node.js versions
     steps:
-    - uses: actions/checkout@v4 # Updated to latest version
+    - uses: actions/checkout@v4
     - name: Setup node
-      uses: actions/setup-node@v4 # Updated to latest version
+      uses: actions/setup-node@v4
       with:
         cache: 'npm'
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run health-check
-    - uses: actions/upload-artifact@v4 # Updated to latest version
+    - uses: actions/upload-artifact@v4
       with:
-        name: dist
+        name: dist-${{ github.run_id }} # Unique artifact name
         path: dist
         retention-days: 7
 
@@ -40,23 +40,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Download dist
-      uses: actions/download-artifact@v4 # Updated to latest version
+      uses: actions/download-artifact@v4
       with:
-        name: dist        
+        name: dist-${{ github.run_id }} # Match unique artifact name
     - name: Setup node
-      uses: actions/setup-node@v4 # Updated to latest version
+      uses: actions/setup-node@v4
       with:
-        node-version: '20' # Updated to latest LTS
-        cache: 'npm'        
+        node-version: '20' # Latest LTS
+        cache: 'npm'
     - name: Pre-release
       run: |
         npm version prerelease --preid=$GITHUB_RUN_ID --no-git-tag-version
         npm pack
         ls
     - name: Upload
-      uses: actions/upload-artifact@v4 # Updated to latest version
+      uses: actions/upload-artifact@v4
       with:
-        name: package
+        name: package-${{ github.run_id }} # Unique artifact name
         path: "./*.tgz"
         retention-days: 7
 
@@ -66,13 +66,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Download package
-      uses: actions/download-artifact@v4 # Updated to latest version
+      uses: actions/download-artifact@v4
       with:
-        name: package
+        name: package-${{ github.run_id }} # Match unique artifact name
     - name: Setup node
-      uses: actions/setup-node@v4 # Updated to latest version
+      uses: actions/setup-node@v4
       with:
-        node-version: '20' # Updated to latest LTS
+        node-version: '20' # Latest LTS
         registry-url: https://npm.pkg.github.com/
         scope: "@olivercaine"
     - run: echo "registry=https://npm.pkg.github.com/@olivercaine" >> .npmrc
