@@ -1,4 +1,4 @@
-# https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+# https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions
 
 name: Node.js CI
 
@@ -18,20 +18,21 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node-version: [ 14, 16, 18 ]
+        node-version: [ 20 ] # Latest LTS and current Node.js versions
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Setup node
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         cache: 'npm'
-        node-version: ${{ matrix.node }}
+        node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run health-check
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
-        name: dist
+        name: dist-${{ github.run_id }} # Unique artifact name
         path: dist
+        retention-days: 7
 
   package:
     needs: [build]
@@ -39,24 +40,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Download dist
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4
       with:
-        name: dist        
+        name: dist-${{ github.run_id }} # Match unique artifact name
     - name: Setup node
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
-        node-version: 14.x
-        cache: 'npm'        
+        node-version: '20' # Latest LTS
+        cache: 'npm'
     - name: Pre-release
       run: |
         npm version prerelease --preid=$GITHUB_RUN_ID --no-git-tag-version
         npm pack
         ls
     - name: Upload
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
-        name: package
+        name: package-${{ github.run_id }} # Unique artifact name
         path: "./*.tgz"
+        retention-days: 7
 
   publish:
     needs: [package]
@@ -64,15 +66,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Download package
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4
       with:
-        name: package
-    - uses: actions/setup-node@v1
+        name: package-${{ github.run_id }} # Match unique artifact name
+    - name: Setup node
+      uses: actions/setup-node@v4
       with:
-        node-version: 14.x
+        node-version: '20' # Latest LTS
         registry-url: https://npm.pkg.github.com/
         scope: "@olivercaine"
     - run: echo "registry=https://npm.pkg.github.com/@olivercaine" >> .npmrc
     - run: npm publish $(ls *.tgz)
       env:
-        NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}      
+        NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
