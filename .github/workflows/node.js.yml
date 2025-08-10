@@ -18,7 +18,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node-version: [ 18, 20 ] # Latest LTS and current Node.js versions
+        node-version: [ 20 ] # Latest LTS and current Node.js versions
     steps:
     - uses: actions/checkout@v4
     - name: Setup node
