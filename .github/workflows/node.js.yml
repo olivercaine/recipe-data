@@ -1,4 +1,4 @@
-# https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+# https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions
 
 name: Node.js CI
 
@@ -18,20 +18,21 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node-version: [ 14, 16, 18, 20 ]
+        node-version: [ 18, 20, 22 ] # Updated to latest LTS and current Node.js versions
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4 # Updated to latest version
     - name: Setup node
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4 # Updated to latest version
       with:
         cache: 'npm'
-        node-version: ${{ matrix.node }}
+        node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run health-check
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@v4 # Updated to latest version
       with:
         name: dist
         path: dist
+        retention-days: 7
 
   package:
     needs: [build]
@@ -39,13 +40,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Download dist
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v4 # Updated to latest version
       with:
         name: dist        
     - name: Setup node
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v4 # Updated to latest version
       with:
-        node-version: 14.x
+        node-version: '20' # Updated to latest LTS
         cache: 'npm'        
     - name: Pre-release
       run: |
@@ -53,10 +54,11 @@ jobs:
         npm pack
         ls
     - name: Upload
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v4 # Updated to latest version
       with:
         name: package
         path: "./*.tgz"
+        retention-days: 7
 
   publish:
     needs: [package]
@@ -64,15 +66,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Download package
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v4 # Updated to latest version
       with:
         name: package
-    - uses: actions/setup-node@v4
+    - name: Setup node
+      uses: actions/setup-node@v4 # Updated to latest version
       with:
-        node-version: 14.x
+        node-version: '20' # Updated to latest LTS
         registry-url: https://npm.pkg.github.com/
         scope: "@olivercaine"
     - run: echo "registry=https://npm.pkg.github.com/@olivercaine" >> .npmrc
     - run: npm publish $(ls *.tgz)
       env:
-        NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}      
+        NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
