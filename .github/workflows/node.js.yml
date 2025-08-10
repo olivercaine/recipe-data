@@ -28,7 +28,7 @@ jobs:
         node-version: ${{ matrix.node }}
     - run: npm ci
     - run: npm run health-check
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         name: dist
         path: dist
@@ -39,11 +39,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Download dist
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4
       with:
         name: dist        
     - name: Setup node
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: 14.x
         cache: 'npm'        
@@ -53,7 +53,7 @@ jobs:
         npm pack
         ls
     - name: Upload
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: package
         path: "./*.tgz"
@@ -64,10 +64,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Download package
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4
       with:
         name: package
-    - uses: actions/setup-node@v1
+    - uses: actions/setup-node@v4
       with:
         node-version: 14.x
         registry-url: https://npm.pkg.github.com/
